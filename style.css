@@ -4,21 +4,44 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.img-service1 {
+  width: 317px;
+  height: 320px;
+  object-fit: cover;
+}
+.img-service2 {
+  width: 317px;
+  height: 320px;
+  object-fit: cover;
+}
+.img-service3 {
+  width: 317px;
+  height: 320px;
+  object-fit: cover;
+}
+.img-service4 {
+  width: 317px;
+  height: 320px;
+  object-fit: cover;
+}
 .img1 {
-  width: 380px;
+  width: 422px;
   height: 407px;
   object-fit: cover;
 }
 .img2 {
-  width: 380px;
+  width: 422px;
   height: 407px;
   object-fit: cover;
 }
 .img3 {
-  width: 380px;
+  width: 422px;
   height: 407px;
   object-fit: cover;
+}
+.perebiv {
+  width: 100%;
+  margin-top: 40px;
 }
 h2 {
   font-size: 28px;
@@ -29,10 +52,24 @@ h2 {
   font-weight: 300;
   font-size: 48px;
   line-height: 56px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 .project {
   display: flex;
   justify-content: space-between;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.design {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 56px;
 }
 h3 {
   font-family: "Roboto";
@@ -45,7 +82,7 @@ h5 {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 300;
-  line-height: 5px;
+  line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
   color: #828282;
@@ -62,6 +99,8 @@ h6 {
 .button {
   display: flex;
   justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 /* CSS */
 .button-85 {
