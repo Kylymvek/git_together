@@ -1,5 +1,8 @@
 * {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .img1 {
@@ -78,18 +81,7 @@ h6 {
 
 .button-85:before {
   content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #ff0000);
   position: absolute;
   top: -2px;
   left: -2px;
@@ -129,15 +121,18 @@ h6 {
   box-sizing: border-box;
 }
 
+/* main-page start */
 .container {
   margin: 0 auto;
 }
 
 .main-page {
   background: url(./images_of_mainPage/background_mainPage.png);
+  height: 800px;
 }
 
 header {
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -145,3 +140,34 @@ header {
 h1 {
   color: white;
 }
+
+.main-page__first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.main-page__first__text {
+  text-align: center;
+}
+
+.main-page__first__btns {
+  margin-top: 150px;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+/* main-page end */
+
+a {
+  text-decoration: none;
+}
+
+/* footer start */
+.footer {
+  /* background-color: #222; */
+}
+
+/* footer end */
