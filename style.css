@@ -196,7 +196,7 @@ h1 {
 .main-page__first__btns {
   margin-top: 150px;
   width: 400px;
-  height: 50px;
+  height: 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -206,9 +206,60 @@ a {
   text-decoration: none;
 }
 
-/* footer start */
-.footer {
-  /* background-color: #222; */
+ul {
+  list-style-type: none;
 }
 
+/* footer start */
+.footer {
+  background-image: url(./imgs_footer/background_for_footer.png);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__high-part {
+  padding-top: 20px;
+  margin: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__high-part__icons {
+  width: 200px;
+  margin-right: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__down-part {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__down-part_h3-style {
+  color: #faff09;
+}
+.footer__down-part_ul-style {
+  margin-top: 10px;
+  color: white;
+  line-height: 25px;
+}
+
+.footer__down-part__install {
+  text-align: center;
+}
+
+.footer__down-part_ul-apps {
+  margin-top: 15px;
+}
+
+.footer__last-txt {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #d9dbe1;
+  text-align: center;
+}
 /* footer end */
