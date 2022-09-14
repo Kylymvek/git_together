@@ -125,4 +125,23 @@ h6 {
   background: #222;
   left: 0;
   top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.main-page {
+  background: url(./images_of_mainPage/background_mainPage.png);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: white;
 }
